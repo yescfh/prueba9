@@ -1,0 +1,107 @@
+h1 {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    background-color: greenyellow;
+}
+
+
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(./assets/banner-g90a6f5f04_1920.jpg);
+    background-size: auto;
+    height: 40vh;
+    position: relative;
+    padding: 15px;
+    color: azure;
+    align-content: center;
+    justify-content: center;
+}
+
+.banner {
+    display: flex;
+    background-color: black;
+    color: azure;
+    height: 15vh;
+    align-items: center;
+
+}
+
+.parrafo {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 15px;
+    background-image: radial-gradient(circle farthest-corner at 10% 20%, #25c4ce 0%, #fd1365 90%);
+    background-size: 100%;
+    height: auto;
+
+
+}
+
+.texto {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 15px;
+    background-image: radial-gradient(circle farthest-corner at 10% 20%, #25c4ce 0%, #fd1365 90%);
+    background-size: 100%;
+}
+
+.footer {
+    grid-area: foot;
+    display: flex;
+    background-color: greenyellow;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.imagen {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.fondo {
+    padding: 15px;
+    background-image: radial-gradient(circle farthest-corner at 10% 20%, #25c4ce 0%, #fd1365 90%);
+    background-size: 100%;
+
+}
+
+
+/* animaciones */
+
+.animacionUno{
+    display: inline-block;
+    margin: 0 0.5rem;
+  
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+  }
+  .animacionDos{
+    display: inline-block;
+    margin: 0 0.5rem;
+  
+    animation: zoomIn; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 4s; /* don't forget to set a duration! */
+  }
+  
+  .my-element {
+    display: inline-block;
+    margin: 0 0.5rem;
+  
+    animation: flash; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 10s; /* don't forget to set a duration! */
+  }
+  
